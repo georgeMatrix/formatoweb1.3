@@ -1,4 +1,16 @@
 <?php
+//======================================================================================//
+//===============================Escuelas===============================================//
+//======================================================================================//
+//Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
+Route::resource('controlEscolar', 'ControlEscolarController');
+Route::resource('baseDeDatos', 'BaseDeDatosController');
+Route::resource('calificaciones', 'CalificacionesController');
+Route::resource('colegiaturas', 'ColegiaturasController');
+Route::resource('certificaciones', 'CertificacionesController');
+Route::resource('bajas', 'BajasController');
+Route::resource('clientePrueba', 'ClientePruebaController');
+Route::get('getPdf/{id}/{status}', 'CalificacionesController@getPdf');
 
 
 //======================================================================================//

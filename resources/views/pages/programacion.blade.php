@@ -92,7 +92,8 @@
                             <figure>
                                 <img src="formatoWeb/images/upload/califica.png" alt="like" />
                             </figure>
-                            <p>Ten acceso a una de nuestras demos, en donde utilizamos HTML 5, JavaScript, CSS, PHP y MySQL. Pronto nuevos Ejemplos</p>
+                            <p>Ten acceso a una DEMO de nuestras ultimos trabajos, en donde utilizamos HTML 5, JavaScript, CSS, PHP y MySQL. Pronto nuevos Ejemplos</p>
+                            <button><a href="{{route('controlEscolar.index')}}">Click aquí Ir a la DEMO</a></button>
                             <!--<button onClick="window.location.href = 'http://www.formatowebgx.com/cienciaBasica/formulario1.php'">Prueba la Demo</button>-->
                         </div>
                     </div>
@@ -132,9 +133,9 @@
                             </figure>
                         </a>
                         <div class="service-detail">
-                            <h2>Punto de Venta</h2>
-                            <p>Los puntos de venta vienen a automatizar el proceso de salida y cobro de la mercancía en las tiendas departamentales, comercios, restaurantes y otras instituciones. La implementación de los sistemas de punto de venta no son un lujo, si no una necesidad primordial para agilizar los procesos en los que esta relacionado la salida de la mercancía en estos tipos de establecimientos.</p>
-                            <button class="dark-button" onClick="location.href='contacto'">Contáctanos</button>
+                            <h2>Control Escolar</h2>
+                            <p>Esta es una demostración de un sistema para el control escolar, pero esta es solo una pequeña muestra de lo que podemos hacer. Cuéntanos tus necesidades y nosotros y nosotros pondremos manos a la obra.</p>
+                            <button><a href="{{route('controlEscolar.index')}}">Click aquí Ir a la DEMO</a></button>
                         </div>
                     </li>
 
