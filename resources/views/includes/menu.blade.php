@@ -22,7 +22,7 @@
 
     <li <?php if ($pagina==9) {?>
         class='active';
-    <?php } ?>><a href='#'>Nuestro Negocio</a></li>
+    <?php } ?>><a href='{{route('negocios.index')}}'>Nuestro Negocio</a></li>
 
 
 </ul>
